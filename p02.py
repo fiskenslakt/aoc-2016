@@ -22,8 +22,6 @@ class Keypad:
             return key is not None
         except IndexError:
             return False
-        else:
-            return True
 
     @property
     def x(self):
