@@ -4,7 +4,7 @@ from aocd import data
 possible = 0
 rows = []
 
-for triangle in data.split('\n'):
+for triangle in data.splitlines():
     sides = [int(side) for side in triangle.split()]
     rows.append(sides)
     sides = sorted(sides)
